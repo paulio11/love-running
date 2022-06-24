@@ -171,7 +171,7 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
     font-size: 280%;
 }
 
@@ -229,7 +229,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -249,13 +249,14 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* media queries*/
 
 @media screen and (max-width: 1200px) {
+
     #clun-ethos {
         width: 65%;
         height: 1200px;
@@ -267,10 +268,19 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+    .left-about-heading {
+        padding-right: 20%;
+    }
+
+    .right-about-heading {
+        padding-left: 20%;
     }
 
     #center-about {
@@ -282,5 +292,16 @@ footer {
 
     hr {
         display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
     }
 }
