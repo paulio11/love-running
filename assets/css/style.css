@@ -66,7 +66,8 @@ h2 {
 
 /* hero image and cover text */
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
@@ -95,7 +96,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
+    background: url(../images/hero-image.webp) no-repeat center center;
 
     /* animates zoom on page load, then maitains zoom level */
     animation-name: hero-zoom;
@@ -189,4 +190,15 @@ hr {
     background: url(../images/ethos-center-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* running times section */
+
+#times {
+    background-image: url(../images/dublin-city.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
