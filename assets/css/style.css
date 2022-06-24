@@ -257,7 +257,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    #clun-ethos {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -275,20 +275,19 @@ footer {
         padding: 0;
     }
 
-    .left-about-heading p {
-        padding-right: 20%;
-    }
-
-    .right-about-heading p {
-        padding-left: 20%;
-    }
-
     #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    } 
 
     hr {
         display: none;
